@@ -260,30 +260,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-         <activity
-            android:name="com.rugovit.igrica.engine.ui.levels.GameActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="landscape"
-              android:configChanges="orientation|keyboardHidden|screenSize" 
-              >
-            <intent-filter>
-                <action android:name="android.intent.action.faza1activity" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-         <activity
-            android:name="com.rugovit.igrica.Faza2Activity"
-            android:label="@string/app_name"
-            android:screenOrientation="landscape"
-              android:configChanges="orientation|keyboardHidden|screenSize" 
-              >
-            <intent-filter>
-                <action android:name="android.intent.action.faza2activity" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
         <activity
             android:name="com.rugovit.igrica.engine.ui.levels.FazaBrdovita"
             android:label="@string/app_name"

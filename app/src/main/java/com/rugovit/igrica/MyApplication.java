@@ -29,11 +29,11 @@ import android.widget.Toast;
  //   mode = ReportingInteractionMode.TOAST,
     reportType=org.acra.sender.HttpSender.Type.JSON*/
 	//	formUri = "https://rugovit.cloudant.com/acra-com.rugovit.igrica/",
-    formUri = "https://rugovit.cloudant.com/acra-igrica/_design/acra-storage/_update/report",
+    formUri = "https://star_star_star.cloudant.com/report",
     reportType = org.acra.sender.HttpSender.Type.JSON,
     httpMethod = org.acra.sender.HttpSender.Method.POST,
-    formUriBasicAuthLogin = "ionettlyindevincemposely",
-    formUriBasicAuthPassword = "e46KBHeIB6Px5WTO0AyDcQLQ",
+    formUriBasicAuthLogin = "*************************",
+    formUriBasicAuthPassword = "************************",
     	
 
     customReportContent = {
