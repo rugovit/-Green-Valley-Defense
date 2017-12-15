@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, IgricaActivity!</string>
+    <string name="app_name">Green Valley Defence</string>
+    <string name="toast_crash">Opsss...eee.. ill just send crash report</string>
+
+</resources>

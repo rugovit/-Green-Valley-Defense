@@ -1,0 +1,477 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:2:1-337:12
+INJECTED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:2:1-337:12
+INJECTED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:2:1-337:12
+INJECTED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:2:1-337:12
+MERGED from [ch.acra:acra:4.9.2] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\acra-4.9.2.aar\c34814281cf9545b399aa542a6214a9c\AndroidManifest.xml:10:6-44:12
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\631c6edde8272762255c6e4a18eb7311\AndroidManifest.xml:17:1-27:12
+INJECTED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:2:1-337:12
+INJECTED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:2:1-337:12
+INJECTED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:2:1-337:12
+	package
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:3:5-29
+		INJECTED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml
+		INJECTED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml
+		INJECTED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml
+		INJECTED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:5:5-45
+supports-screens
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:12:5-50
+	android:anyDensity
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:12:23-48
+uses-permission#android.permission.INTERNET
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:13:5-83
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:13:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:14:22-78
+application
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:26:5-335:19
+MERGED from [ch.acra:acra:4.9.2] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\acra-4.9.2.aar\c34814281cf9545b399aa542a6214a9c\AndroidManifest.xml:39:5-43:19
+MERGED from [ch.acra:acra:4.9.2] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\acra-4.9.2.aar\c34814281cf9545b399aa542a6214a9c\AndroidManifest.xml:39:5-43:19
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\631c6edde8272762255c6e4a18eb7311\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\631c6edde8272762255c6e4a18eb7311\AndroidManifest.xml:25:5-20
+	android:largeScreens
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:28:9-36
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:33:9-41
+	android:smallScreens
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:30:9-36
+	android:normalScreens
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:29:9-37
+	android:hardwareAccelerated
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:35:9-43
+	android:largeHeap
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:34:9-33
+	android:icon
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:32:9-45
+	android:anyDensity
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:31:9-34
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:36:9-56
+receiver#com.amazon.device.iap.ResponseReceiver
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:62:1-67:12
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:62:11-66
+intent-filter#com.amazon.inapp.purchasing.NOTIFY
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:63:3-66:19
+action#com.amazon.inapp.purchasing.NOTIFY
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:64:5-65:78
+	android:permission
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:65:7-75
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:64:13-64
+activity#com.rugovit.igrica.IgricaActivity
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:72:9-82:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:75:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:74:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:76:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:73:13-61
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:77:13-81:29
+action#android.intent.action.MAIN
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:78:17-69
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:78:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:80:17-77
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:80:27-74
+activity#com.rugovit.igrica.engine.ui.levels.FazaPlacenaPiramida
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:83:13-94:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:86:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:85:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:87:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:84:13-83
+intent-filter#android.intent.action.fazaplacenapiramida+android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:89:13-93:29
+action#android.intent.action.fazaplacenapiramida
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:90:17-84
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:90:25-81
+category#android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:92:17-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:92:27-73
+activity#com.rugovit.igrica.engine.ui.levels.FazaPlacenaZvijezda
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:95:13-106:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:98:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:97:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:99:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:96:13-83
+intent-filter#android.intent.action.fazaplacenazvijezda+android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:101:13-105:29
+action#android.intent.action.fazaplacenazvijezda
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:102:17-84
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:102:25-81
+activity#com.rugovit.igrica.engine.ui.levels.FazaVrhPlanine
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:107:9-118:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:110:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:109:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:111:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:108:13-78
+intent-filter#android.intent.action.fazavrhplanine+android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:113:13-117:29
+action#android.intent.action.fazavrhplanine
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:114:17-79
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:114:25-76
+activity#com.rugovit.igrica.engine.ui.levels.FazaPlacenaSuma
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:119:17-130:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:122:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:121:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:123:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:120:13-79
+intent-filter#android.intent.action.fazaplacenasuma+android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:125:13-129:29
+action#android.intent.action.fazaplacenasuma
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:126:17-80
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:126:25-77
+activity#com.rugovit.igrica.engine.ui.levels.FazaBorovaSuma
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:131:10-142:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:134:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:133:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:135:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:132:13-78
+intent-filter#android.intent.action.fazaborovasuma+android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:137:13-141:29
+action#android.intent.action.fazaborovasuma
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:138:17-79
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:138:25-76
+activity#com.rugovit.igrica.engine.ui.levels.FazaSupljina
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:143:11-154:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:146:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:145:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:147:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:144:13-76
+intent-filter#android.intent.action.fazasupljina+android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:149:13-153:29
+action#android.intent.action.fazasupljina
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:150:17-77
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:150:25-74
+activity#com.rugovit.igrica.engine.ui.levels.FazaUlazUBrdo
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:155:9-166:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:158:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:157:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:159:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:156:13-77
+intent-filter#android.intent.action.fazaulazubrdo+android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:161:13-165:29
+action#android.intent.action.fazaulazubrdo
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:162:17-78
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:162:25-75
+activity#com.rugovit.igrica.engine.ui.levels.FazaZapaljenGrad
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:167:11-178:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:170:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:169:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:171:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:168:13-80
+intent-filter#android.intent.action.fazazapaljengrad+android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:173:13-177:29
+action#android.intent.action.fazazapaljengrad
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:174:17-81
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:174:25-78
+activity#com.rugovit.igrica.engine.ui.levels.FazaZapaljenoSelo
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:179:9-190:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:182:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:181:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:183:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:180:13-81
+intent-filter#android.intent.action.fazazapaljenoselo+android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:185:13-189:29
+action#android.intent.action.fazazapaljenoselo
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:186:17-82
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:186:25-79
+activity#com.rugovit.igrica.engine.ui.levels.FazaPoljeJabuka
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:191:9-202:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:194:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:193:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:195:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:192:13-79
+intent-filter#android.intent.action.fazapoljejabuka+android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:197:13-201:29
+action#android.intent.action.fazapoljejabuka
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:198:17-80
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:198:25-77
+activity#com.rugovit.igrica.engine.ui.levels.FazaRacvanje
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:203:9-214:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:206:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:205:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:207:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:204:13-76
+intent-filter#android.intent.action.fazaracvanje+android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:209:13-213:29
+action#android.intent.action.fazaracvanje
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:210:17-77
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:210:25-74
+activity#com.rugovit.igrica.engine.ui.levels.FazaSumaPocetna
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:215:10-226:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:218:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:217:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:219:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:216:13-79
+intent-filter#android.intent.action.fazasumapocetna+android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:221:13-225:29
+action#android.intent.action.fazasumapocetna
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:222:17-80
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:222:25-77
+activity#com.rugovit.igrica.engine.ui.levels.FazaMost
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:227:10-238:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:230:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:229:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:231:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:228:13-72
+intent-filter#android.intent.action.fazamost+android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:233:13-237:29
+action#android.intent.action.fazamost
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:234:17-73
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:234:25-70
+activity#com.rugovit.igrica.engine.ui.levels.FazaGradMost
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:239:10-250:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:242:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:241:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:243:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:240:13-76
+intent-filter#android.intent.action.fazagradmost+android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:245:13-249:29
+action#android.intent.action.fazagradmost
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:246:17-77
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:246:25-74
+activity#com.rugovit.igrica.engine.ui.levels.FazaSumskiProlaz
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:251:11-262:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:254:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:253:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:255:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:252:13-80
+intent-filter#android.intent.action.fazasumskiprolaz+android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:257:13-261:29
+action#android.intent.action.fazasumskiprolaz
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:258:17-81
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:258:25-78
+activity#com.rugovit.igrica.engine.ui.levels.GameActivity
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:263:10-274:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:266:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:265:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:267:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:264:13-76
+intent-filter#android.intent.action.faza1activity+android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:269:13-273:29
+action#android.intent.action.faza1activity
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:270:17-78
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:270:25-75
+activity#com.rugovit.igrica.Faza2Activity
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:275:10-286:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:278:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:277:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:279:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:276:13-60
+intent-filter#android.intent.action.faza2activity+android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:281:13-285:29
+action#android.intent.action.faza2activity
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:282:17-78
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:282:25-75
+activity#com.rugovit.igrica.engine.ui.levels.FazaBrdovita
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:287:9-298:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:290:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:289:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:291:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:288:13-76
+intent-filter#android.intent.action.fazabrdovita+android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:293:13-297:29
+action#android.intent.action.fazabrdovita
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:294:17-77
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:294:25-74
+activity#com.rugovit.igrica.engine.ui.levels.FazaGradRibarski
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:299:10-310:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:302:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:301:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:303:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:300:13-80
+intent-filter#android.intent.action.fazagradribarski+android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:305:13-309:29
+action#android.intent.action.fazagradribarski
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:306:17-81
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:306:25-78
+activity#com.rugovit.igrica.engine.ui.levels.FazaRijecniProlaz
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:311:10-322:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:314:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:313:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:315:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:312:13-81
+intent-filter#android.intent.action.fazarijecniprolaz+android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:317:13-321:29
+action#android.intent.action.fazarijecniprolaz
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:318:17-82
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:318:25-79
+activity#com.rugovit.igrica.MapActivity
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:323:9-334:20
+	android:screenOrientation
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:326:13-50
+	android:label
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:325:13-45
+	android:configChanges
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:327:15-76
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:324:13-58
+intent-filter#android.intent.action.pokreni_mapu+android.intent.category.DEFAULT
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:329:13-333:29
+action#android.intent.action.pokreni_mapu
+ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:330:17-77
+	android:name
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml:330:25-74
+uses-sdk
+INJECTED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml
+INJECTED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml
+MERGED from [ch.acra:acra:4.9.2] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\acra-4.9.2.aar\c34814281cf9545b399aa542a6214a9c\AndroidManifest.xml:37:5-42
+MERGED from [ch.acra:acra:4.9.2] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\acra-4.9.2.aar\c34814281cf9545b399aa542a6214a9c\AndroidManifest.xml:37:5-42
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\631c6edde8272762255c6e4a18eb7311\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\631c6edde8272762255c6e4a18eb7311\AndroidManifest.xml:21:5-23:54
+INJECTED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml
+INJECTED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:24.1.1] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\631c6edde8272762255c6e4a18eb7311\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml
+		INJECTED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml
+		ADDED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml
+		INJECTED from D:\rad\Igrica 2015.3.19\igra_gradle\app\src\main\AndroidManifest.xml
+activity#org.acra.dialog.CrashReportDialog
+ADDED from [ch.acra:acra:4.9.2] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\acra-4.9.2.aar\c34814281cf9545b399aa542a6214a9c\AndroidManifest.xml:40:9-241
+	android:process
+		ADDED from [ch.acra:acra:4.9.2] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\acra-4.9.2.aar\c34814281cf9545b399aa542a6214a9c\AndroidManifest.xml:40:172-195
+	android:excludeFromRecents
+		ADDED from [ch.acra:acra:4.9.2] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\acra-4.9.2.aar\c34814281cf9545b399aa542a6214a9c\AndroidManifest.xml:40:19-52
+	android:launchMode
+		ADDED from [ch.acra:acra:4.9.2] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\acra-4.9.2.aar\c34814281cf9545b399aa542a6214a9c\AndroidManifest.xml:40:87-122
+	android:theme
+		ADDED from [ch.acra:acra:4.9.2] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\acra-4.9.2.aar\c34814281cf9545b399aa542a6214a9c\AndroidManifest.xml:40:196-239
+	android:finishOnTaskLaunch
+		ADDED from [ch.acra:acra:4.9.2] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\acra-4.9.2.aar\c34814281cf9545b399aa542a6214a9c\AndroidManifest.xml:40:53-86
+	android:name
+		ADDED from [ch.acra:acra:4.9.2] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\acra-4.9.2.aar\c34814281cf9545b399aa542a6214a9c\AndroidManifest.xml:40:123-171
+service#org.acra.sender.SenderService
+ADDED from [ch.acra:acra:4.9.2] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\acra-4.9.2.aar\c34814281cf9545b399aa542a6214a9c\AndroidManifest.xml:42:9-113
+	android:process
+		ADDED from [ch.acra:acra:4.9.2] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\acra-4.9.2.aar\c34814281cf9545b399aa542a6214a9c\AndroidManifest.xml:42:88-111
+	android:exported
+		ADDED from [ch.acra:acra:4.9.2] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\acra-4.9.2.aar\c34814281cf9545b399aa542a6214a9c\AndroidManifest.xml:42:18-42
+	android:name
+		ADDED from [ch.acra:acra:4.9.2] C:\Users\rugovit\.gradle\caches\transforms-1\files-1.1\acra-4.9.2.aar\c34814281cf9545b399aa542a6214a9c\AndroidManifest.xml:42:43-87

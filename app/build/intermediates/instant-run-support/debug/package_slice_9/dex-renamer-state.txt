@@ -1,0 +1,4 @@
+#Fri Dec 15 20:26:08 CET 2017
+base.0=D\:\\rad\\Igrica 2015.3.19\\igra_gradle\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\48
+path.0=classes.dex
+renamed.0=classes.dex

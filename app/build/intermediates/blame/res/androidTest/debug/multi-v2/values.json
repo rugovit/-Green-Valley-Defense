@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\rad\\Igrica 2015.3.19\\igra_gradle\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\rugovit\\.gradle\\caches\\transforms-1\\files-1.1\\acra-4.9.2.aar\\c34814281cf9545b399aa542a6214a9c\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "272",
+                        "endColumns": "105",
+                        "endOffsets": "373"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "105",
+                        "endOffsets": "156"
+                    }
+                }
+            ]
+        }
+    ]
+}
