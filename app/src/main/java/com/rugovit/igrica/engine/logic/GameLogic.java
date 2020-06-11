@@ -598,7 +598,7 @@ public void run() {
  dinThreadWait=threadWait- razlikaVremena;
  fps=1000/(timeMili+1);
  if(dinThreadWait<=10) dinThreadWait=0;// u sluèaju da izraèuna prekratko vrijeme
- //else	try{Thread.sleep(dinThreadWait);}catch(InterruptedException e){e.printStackTrace();}
+ else	try{Thread.sleep(dinThreadWait);}catch(InterruptedException e){e.printStackTrace();}
  //////////////////////////////////
  if(resetirajIgru){
 	 

@@ -64,20 +64,20 @@ public class FazeIgre {
 	////////zvukovi///////////
     
 	static public LinkedList<Integer> listaSvikPustenihZvukova;
-	static public float koeficijentPojacanjaZvuka=0.5f;// varijabla koja služi za kontrolu volumena cijele igre
+	static public float koeficijentPojacanjaZvuka=0.5f;// volume sound factor
 	private Random generator=new Random();
 	public  SoundPool soundPool;
 	private LinkedList<Integer> listaZvukova;
 	private HashMap<String,Integer> listaImenaZvukova;
 	///////////parametri igre
 	static public float smanjenjeTouchVisineZaTornjeve=35;
-	public float koeficijentBrzineUdarca=1f;
-	static public float sansaZaUdarac=50;
-	public float koeficijentBrzine=1.6f;
-	public float koeficijentBrzineProtivnika=2f;
-	public float redukcijaKodProdaje=0.7f;
-	public float maxOcekivanaVelGradevinaZaPravilnoSortiranjeCm=2.4f;
-	public int sjenaAlpha=50;;
+	public float koeficijentBrzineUdarca=1f;  //hit speed factor
+	static public float sansaZaUdarac=50; // chance of hit
+	public float koeficijentBrzine=1.6f; // defenders speed  factor
+	public float koeficijentBrzineProtivnika=2f; //zombies speed factor
+	public float redukcijaKodProdaje=0.7f; //  reduction of price while selling towers
+	public float maxOcekivanaVelGradevinaZaPravilnoSortiranjeCm=2.4f; // max height of buildings
+	public int sjenaAlpha=50; // shadow alpha
     public int sjenaRead=0;
     public int sjenaGreen=0;
     public int sjenaBlue=0;
@@ -94,12 +94,12 @@ public class FazeIgre {
     public int tezina=0;
   /////
   //ability vrijeme  
-public float timerZaAbilityreinforcementSek=40;
-    public float timerZaAbilitylavabombSek=70;
+public float timerZaAbilityreinforcementSek=40; // time for reinforcement
+    public float timerZaAbilitylavabombSek=70; // timer for metor/ lava bomb
   ///
   private float novacPoSekundi=0;
-  private static float mnoziteljVisineLikova=0.55f;  
-  private static float mnoziteljSirnineLikova=0.75f; 
+  private static float mnoziteljVisineLikova=0.55f; // character size height  factor
+  private static float mnoziteljSirnineLikova=0.75f;// character size width factor
   private int brProtivnika=0;
   private float xVala=-10000;
   private float yVala=-10000;
