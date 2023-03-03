@@ -28,8 +28,8 @@ android {
 
 dependencies {
     implementation files('src/main/java/libs/in-app-purchasing-2.0.76.jar')
-    compile 'ch.acra:acra:4.9.2'
+    implementation 'ch.acra:acra:4.9.2'
     // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
-    compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5'
+    implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5'
 
 }
