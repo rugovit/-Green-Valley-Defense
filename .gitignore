@@ -793,3 +793,4 @@
 /.gradle/workspace-id.txt
 /.gradle/workspace-id.txt.lock
 /app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ZrqwU1f_bIv3Ms9LeVMrFDFFBGk=
+/app/build/outputs/logs/manifest-merger-debug-report.txt
