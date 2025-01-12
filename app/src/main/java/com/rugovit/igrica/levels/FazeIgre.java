@@ -1,4 +1,4 @@
-package com.rugovit.igrica.engine.ui.levels;
+package com.rugovit.igrica.levels;
 
 import java.util.HashMap;
 import java.util.LinkedList;

@@ -9,7 +9,7 @@ import com.rugovit.igrica.engine.logic.GameEvent;
 import com.rugovit.igrica.engine.logic.GameLogic;
 import com.rugovit.igrica.engine.ui.UIManagerObject;
 import com.rugovit.igrica.engine.ui.elements.ObjectPrikaza;
-import com.rugovit.igrica.engine.ui.levels.FazeIgre;
+import com.rugovit.igrica.levels.FazeIgre;
 
 public class Protivnik implements GameLogicProtivnik { //,ObjectLinkerLogic{
 	private int vrijedimZivota=0;

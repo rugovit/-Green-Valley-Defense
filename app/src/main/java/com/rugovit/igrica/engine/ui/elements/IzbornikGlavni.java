@@ -8,7 +8,7 @@ import android.graphics.Rect;
 import android.graphics.RectF;
 import android.text.TextPaint;
 
-import com.rugovit.igrica.engine.ui.levels.Faza;
+import com.rugovit.igrica.levels.Faza;
 import com.rugovit.igrica.engine.logic.GameEvent;
 import com.rugovit.igrica.engine.logic.GameLogic;
 import com.rugovit.igrica.engine.logic.elements.GameLogicObject;

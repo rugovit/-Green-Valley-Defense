@@ -104,7 +104,7 @@ public class IgricaActivity extends Activity {
 		   }
 		}
 	public void stvoriMapu(){
-		 final Intent intent=new Intent("android.intent.action.pokreni_mapu");
+		 final Intent intent=new Intent(this,com.rugovit.igrica.MapActivity.class);
 		 // Intent intent =new Intent("android.intent.action.pokreni_igricu");
 		/*
 		final Context cont=this;

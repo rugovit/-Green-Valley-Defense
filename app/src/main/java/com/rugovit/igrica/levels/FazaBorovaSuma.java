@@ -1,5 +1,5 @@
 
-package com.rugovit.igrica.engine.ui.levels;
+package com.rugovit.igrica.levels;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

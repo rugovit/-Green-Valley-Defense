@@ -14,7 +14,7 @@ import android.text.TextPaint;
 
 import com.rugovit.igrica.engine.logic.GameEvent;
 import com.rugovit.igrica.IgricaActivity;
-import com.rugovit.igrica.engine.ui.levels.FazeIgre;
+import com.rugovit.igrica.levels.FazeIgre;
 
 
 public class SpriteHendler implements Cloneable {

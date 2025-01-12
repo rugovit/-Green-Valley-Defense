@@ -11,7 +11,7 @@ import com.rugovit.igrica.engine.logic.GameLogic;
 import com.rugovit.igrica.engine.ui.SpriteHendler;
 import com.rugovit.igrica.engine.ui.UIManagerObject;
 import com.rugovit.igrica.engine.ui.elements.IzbornikZaToranj;
-import com.rugovit.igrica.engine.ui.levels.FazeIgre;
+import com.rugovit.igrica.levels.FazeIgre;
 
 public class ToranjLMinobacac extends ToranjL implements GameLogicObject{
 	private Random generator=new Random();

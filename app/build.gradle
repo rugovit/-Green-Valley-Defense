@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 android {
-    compileSdkVersion 27
-    buildToolsVersion "27.0.1"
+    namespace 'rugovit.igrica'
+    compileSdkVersion 34
     compileOptions.encoding = 'ISO-8859-1'
     packagingOptions {
         exclude 'org/apache/http/version.properties'
@@ -15,7 +15,7 @@ android {
     defaultConfig {
         applicationId "rugovit.igrica"
         minSdkVersion 19
-        targetSdkVersion 19
+        targetSdkVersion 34
     }
 
     buildTypes {
@@ -27,9 +27,4 @@ android {
 }
 
 dependencies {
-    implementation files('src/main/java/libs/in-app-purchasing-2.0.76.jar')
-    implementation 'ch.acra:acra:4.9.2'
-    // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
-    implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5'
-
 }

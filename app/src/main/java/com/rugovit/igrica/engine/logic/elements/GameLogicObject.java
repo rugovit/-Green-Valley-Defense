@@ -4,7 +4,7 @@ import android.graphics.RectF;
 import com.rugovit.igrica.engine.logic.GameEvent;
 import com.rugovit.igrica.engine.logic.GameLogic;
 import com.rugovit.igrica.engine.ui.UIManagerObject;
-import com.rugovit.igrica.engine.ui.levels.FazeIgre;
+import com.rugovit.igrica.levels.FazeIgre;
 
 public interface GameLogicObject {
 	////Getersi

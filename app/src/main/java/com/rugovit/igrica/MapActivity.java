@@ -4,18 +4,18 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Random;
 
-import com.amazon.device.iap.PurchasingService;
-import com.amazon.device.iap.model.PurchaseResponse;
 import com.rugovit.igrica.engine.logic.GameEvent;
 import com.rugovit.igrica.engine.ui.SpriteHendler;
 import com.rugovit.igrica.engine.ui.UIManager;
 import com.rugovit.igrica.engine.ui.UIManagerObject;
 import com.rugovit.igrica.engine.ui.elements.IzbornikUniverzalni;
 import com.rugovit.igrica.engine.ui.elements.MusicManager;
-import com.rugovit.igrica.engine.ui.levels.Faza;
-import com.rugovit.igrica.engine.ui.levels.FazeIgre;
+import com.rugovit.igrica.levels.Faza;
+import com.rugovit.igrica.levels.FazeIgre;
 
 import rugovit.igrica.R;
+
+import android.annotation.SuppressLint;
 import android.graphics.Canvas;
 import android.app.Activity;
 import android.content.Intent;
@@ -94,59 +94,59 @@ public class MapActivity extends Activity{
 		uiMan.reciklirajTeksturu();*/
 		//if(i==1) intent =new Intent("android.intent.action.pokreni_igricu");
 		if(i==6){
-			intent =new Intent("android.intent.action.fazarijecniprolaz"); 
+			intent =new Intent(this,com.rugovit.igrica.levels.FazaRijecniProlaz.class);
 		}
 		else if(i==0){
-			intent =new Intent("android.intent.action.fazasumapocetna");
+			intent =new Intent(this,com.rugovit.igrica.levels.FazaSumaPocetna.class);
 		}
 		else if(i==7){
-			intent =new Intent("android.intent.action.fazapoljejabuka");
+			intent =new Intent(this,com.rugovit.igrica.levels.FazaPoljeJabuka.class);
 		}
 		else if(i==1){
-			intent =new Intent("android.intent.action.fazagradribarski");
+			intent =new Intent(this,com.rugovit.igrica.levels.FazaGradRibarski.class);
 		}
 		
 		else if(i==3){
-			intent =new Intent("android.intent.action.fazabrdovita");
+			intent =new Intent(this,com.rugovit.igrica.levels.FazaBrdovita.class);
 		}
 		else if(i==2){
-			intent =new Intent("android.intent.action.fazasumskiprolaz");
+			intent =new Intent(this,com.rugovit.igrica.levels.FazaSumskiProlaz.class);
 		}
 		else if(i==4){
-			intent =new Intent("android.intent.action.fazamost");
+			intent =new Intent(this,com.rugovit.igrica.levels.FazaMost.class);
 		}
 		else if(i==5){
-			intent =new Intent("android.intent.action.fazagradmost");
+			intent =new Intent(this,com.rugovit.igrica.levels.FazaGradMost.class);
 		}
 		else if(i==6){
-			intent =new Intent("android.intent.action.fazaracvanje");
+			intent =new Intent(this,com.rugovit.igrica.levels.FazaRacvanje.class);
 		}
 		else if(i==8){
-			intent =new Intent("android.intent.action.fazazapaljenoselo");
+			intent =new Intent(this,com.rugovit.igrica.levels.FazaZapaljenoSelo.class);
 		}
 		else if(i==9){
-			intent =new Intent("android.intent.action.fazazapaljengrad");
+			intent =new Intent(this, com.rugovit.igrica.levels.FazaZapaljenGrad.class);
 		}
 		else if(i==10){
-			intent =new Intent("android.intent.action.fazaulazubrdo");
+			intent =new Intent(this,com.rugovit.igrica.levels.FazaUlazUBrdo.class);
 		}
 		else if(i==12){
-			intent =new Intent("android.intent.action.fazasupljina");
+			intent =new Intent(this,com.rugovit.igrica.levels.FazaSupljina.class);
 		}
 		else if(i==11){
-			intent =new Intent("android.intent.action.fazaborovasuma");
+			intent =new Intent( this,com.rugovit.igrica.levels.FazaBorovaSuma.class);
 		}
 		else if(i==13){
-			intent =new Intent("android.intent.action.fazavrhplanine");
+			intent =new Intent(this, com.rugovit.igrica.levels.FazaVrhPlanine.class);
 		}
 		else if(i==14){
-			intent =new Intent("android.intent.action.fazaplacenasuma");
+			intent =new Intent( this,com.rugovit.igrica.levels.FazaPlacenaSuma.class);
 		}
 		else if(i==15){
-			intent =new Intent("android.intent.action.fazaplacenazvijezda");
+			intent =new Intent(this,com.rugovit.igrica.levels.FazaPlacenaZvijezda.class);
 		} 
 		else if(i==16){
-			intent =new Intent("android.intent.action.fazaplacenapiramida");
+			intent =new Intent(this,com.rugovit.igrica.levels.FazaPlacenaPiramida.class);
 		} 
 		intent.putExtras(bundle);
 		//intent.setAction(Intent.ACTION_MAIN);
@@ -288,29 +288,6 @@ public class MapActivity extends Activity{
     	Random generator=new Random();
     	MusicManager.brGlazbeZaPustitiStaza=1+generator.nextInt(1);
         /////////////
-        /////////////////////////////AMAZON DIO////////////////////////////////////////////////////////////////////////////////
-        AMAZONProdajaListener temList= new AMAZONProdajaListener(this.getApplicationContext()){
-        	@Override
-       	 public void  kupljenoNesto(PurchaseResponse response){
-        		dodajElementeMapeUUIIPokreni();
-        	}
-        	
-        };
-	       PurchasingService.registerListener(this.getApplicationContext(),temList);
-	       Log.i(AMAZONProdajaListener.TAG, "onCreate: sandbox mode is:" + PurchasingService.IS_SANDBOX_MODE);
-	       
-	       
-	       PurchasingService.getPurchaseUpdates(true);
-	       PurchasingService.getUserData();
-	       /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        
-	  
-        
-		 
-		 
-		 
-		 
-		 
         //IgricaActivity.musicManager.stanjeIgre(this,1,-1, -1);
        /*font= Typeface.createFromAsset(
 			    getAssets(), 
@@ -776,7 +753,6 @@ public class MapActivity extends Activity{
 				// TODO Auto-generated method stub
 				if(brTP==11||brTP==9){
 					this.pokreniZavrsnuAnimaciju();
-					String requestId = PurchasingService.purchase(IgricaActivity.imePlacenogObjektaNaInternetuFazaDodatna1).toString();
 				/*	uiMan.makniObjekt(this);
 					uiMan.postaviTempUniverzalniIzbornik(null);
 				
@@ -3059,7 +3035,8 @@ private void stvoriBackBotun(){
 			                     " Values ('"+ idSlota +"','"+ukupnoBodova+"');");
 		  bazaPodataka.close();
 	}
-	private void lodirajIzDB(){
+	@SuppressLint("Range")
+    private void lodirajIzDB(){
     	slotoviTezina=new HashMap<String,Integer>();
     	listaImenaSlotova=new HashMap<String,String>() ;
     	koristeneFazePoSlotovima=new HashMap<String,String>() ;
@@ -3074,7 +3051,10 @@ private void stvoriBackBotun(){
 	  Cursor cur3=bazaPodataka.query(IgricaActivity.zadnjiKoristenSlot, null,null, null, null, null, null);
 	 try{
 		  cur3.moveToFirst();
-		 this.idZadnjegSlota=cur3.getString(cur3.getColumnIndex(IgricaActivity.IDSlota));
+		 int columnIndex = cur3.getColumnIndex(IgricaActivity.IDSlota);
+		 if (columnIndex >= 0) {
+			 this.idZadnjegSlota=cur3.getString(columnIndex);
+		 }
 	 }
 	 catch(Exception e){
 		 
@@ -3157,7 +3137,8 @@ private void stvoriBackBotun(){
 			  bazaPodataka.close();
 			  lodirajUpgradse();//lodiram ih posebno jer ce ih trebati upgrade izbornici i onda sam razdovi lodiranje da se dzaba ne lodiraju ostale stvari
  } 
-	private void otkljucajSveFaze(String idSlotaZaOtkljucati){
+	@SuppressLint("Range")
+    private void otkljucajSveFaze(String idSlotaZaOtkljucati){
     
     	
 	 SQLiteDatabase bazaPodataka;
@@ -3177,7 +3158,7 @@ private void stvoriBackBotun(){
 	            	   
 	         		  
 	         		  
-	            	   String idSlottemp=cur2.getString(cur2.getColumnIndex(IgricaActivity.IDSlota));
+	            	   @SuppressLint("Range") String idSlottemp=cur2.getString(cur2.getColumnIndex(IgricaActivity.IDSlota));
 	            	   if(idSlotaZaOtkljucati.equals(idSlottemp)){
 	            		   IDKoristeneFaze=cur2.getString(cur2.getColumnIndex(IgricaActivity.IDKoristeneFaze));
 	            	  
@@ -3207,7 +3188,8 @@ private void stvoriBackBotun(){
 			  bazaPodataka.close();
 			  lodirajUpgradse();//lodiram ih posebno jer ce ih trebati upgrade izbornici i onda sam razdovi lodiranje da se dzaba ne lodiraju ostale stvari
  } 
-	private void lodirajUpgradse(){
+	@SuppressLint("Range")
+    private void lodirajUpgradse(){
 		/////lodiranje upgradsa
 		listaUpgradsi=new HashMap<String,Integer>();
 		brUpgradeBodova=new HashMap<String,Integer>();
@@ -3218,9 +3200,9 @@ private void stvoriBackBotun(){
 		cur4.moveToFirst();  
 		 this.postojiUpgrade=false;
 		while(cur4.isAfterLast()==false){// puni liste sa atributima koje cita iz liste 	  
-        	    String IDUpgrada=cur4.getString(cur4.getColumnIndex(IgricaActivity.IDUpgradesaSlotPlusBrUpgrada));	
+        	    @SuppressLint("Range") String IDUpgrada=cur4.getString(cur4.getColumnIndex(IgricaActivity.IDUpgradesaSlotPlusBrUpgrada));
         	   
-        	    Integer brojUpg=cur4.getInt(cur4.getColumnIndex(IgricaActivity.brojUpgradesa));
+        	    @SuppressLint("Range") Integer brojUpg=cur4.getInt(cur4.getColumnIndex(IgricaActivity.brojUpgradesa));
         	   
         	    if(cur4.getString(cur4.getColumnIndex(IgricaActivity.IDSlota)).equals(this.idZadnjegSlota)){
         	    	this.postojiUpgrade=true;
@@ -3247,6 +3229,7 @@ private void stvoriBackBotun(){
 		 bazaPodataka.close();
 		
 	}
+	@SuppressLint("Range")
 	private void resetirajUpgradse(String IdSlota){
 		/////lodiranje upgradsa
 		listaUpgradsi=new HashMap<String,Integer>();
@@ -3257,7 +3240,7 @@ private void stvoriBackBotun(){
 		Cursor cur5=bazaPodataka.query(IgricaActivity.listaBodovaUpgradesa, null,null, null, null, null, null);
 		cur5.moveToFirst(); 
 		while(cur5.isAfterLast()==false){// puni liste sa atributima koje cita iz liste 	  
-     	    String IDSlotaU=cur5.getString(cur5.getColumnIndex(IgricaActivity.IDSlota));	
+     	    String IDSlotaU=cur5.getString(cur5.getColumnIndex(IgricaActivity.IDSlota));
      	   
      	    Integer bodoviUpg=cur5.getInt(cur5.getColumnIndex(IgricaActivity.bodoviUpgradesa));
      	   brUpgradeBodova.put(IDSlotaU,bodoviUpg);
@@ -3534,7 +3517,7 @@ private void stvoriBackBotun(){
          
              }
 /////////////////////////
-		   if(this.listaPlacenihObjekata.contains(IgricaActivity.imePlacenogObjektaNaInternetuFazaDodatna1)){
+		//   if(this.listaPlacenihObjekata.contains(IgricaActivity.imePlacenogObjektaNaInternetuFazaDodatna1)){
 			   //////////////////////OVDJE UBACIVATI DODATNE FAZE KAO I PRIJE SA ISTIM MEHANIZMIMA
 			   ///////////////14
 			   IDKoristeneFaze=this.idZadnjegSlota+"faza14";
@@ -3587,7 +3570,7 @@ private void stvoriBackBotun(){
 				         uiMan.dodajElementUListu(faza4, 2);
 				         
 				             }
-		   }
+		//   }
 		   else if(stanje!=1&&stanje!=0){
          ////////////////test placena faza//////////////
 			   IDKoristeneFaze="kupovina";
@@ -3705,7 +3688,8 @@ private void stvoriBackBotun(){
 			}
 			
 	       
-	    }   
+	    }
+	@SuppressLint("Range")
     private void pokreniLoadIzbornik(){
     	 ///////////////////////////////////////////////////////////////////////////////////////////////////////
     	 SQLiteDatabase bazaPodataka;
@@ -4319,7 +4303,9 @@ private void stvoriBackBotun(){
 	      izbor.regirajINaNekoristenaPolja();// crtat ce ih kao nekoristena ali ce reagirati na dodir, a ja cu poslije odlucivati sto cu napraviti s time
 	   
 	      return izbor;
-	} 
+	}
+
+	@SuppressLint("Range")
     private void lodirajAchievementse(){
 		/////lodiranje upgradsa
 		this.listaAchievementsa=new LinkedList<String>();
@@ -4345,6 +4331,7 @@ private void stvoriBackBotun(){
 		 bazaPodataka.close();
 		
 	}
+	@SuppressLint("Range")
     private void lodirajkKupljeneElemente(){
 
   		this.listaPlacenihObjekata=new LinkedList<String>();
@@ -5111,12 +5098,6 @@ private void stvoriBackBotun(){
     protected void onResume() {
 		// TODO Auto-generated method stub
 		super.onResume();
-		
-		 /////////////////////////////AMAZON DIO////////////////////////////////////////////////////////////////////////////////
-	       
-		 PurchasingService.getUserData();
-	       
-	       /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		if(pceoSaGlazbom){
 			
 			MusicManager.stanjeIgre(this,MusicManager.getGlobalnoStanje(),0, 0);

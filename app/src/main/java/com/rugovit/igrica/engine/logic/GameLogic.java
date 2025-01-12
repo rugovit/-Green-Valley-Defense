@@ -19,7 +19,7 @@ import com.rugovit.igrica.engine.logic.elements.PutL;
 import com.rugovit.igrica.engine.ui.Taskbar;
 import com.rugovit.igrica.engine.ui.UIManager;
 import com.rugovit.igrica.engine.ui.elements.MusicManager;
-import com.rugovit.igrica.engine.ui.levels.FazeIgre;
+import com.rugovit.igrica.levels.FazeIgre;
 
 
 public class GameLogic implements Runnable {
